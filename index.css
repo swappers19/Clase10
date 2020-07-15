@@ -76,12 +76,15 @@
     animation-play-state: running;
 } */
 :root{
-    --color-primary: green;
-    --color-secundary: blue;
+   --variables: 32px
 }
 .variables .uno{
     height: 200px;
     background-color: var(--color-primary);
     color: var(--color-secundary);
+    font-size: var(--variables);
 
+}
+.variables .dos{
+    font-size: var(--variables);
 }
